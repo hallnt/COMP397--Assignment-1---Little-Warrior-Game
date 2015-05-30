@@ -69,29 +69,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <Content Include="css\reset.css" />
     <Content Include="index.html" />
-    <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
-    <Content Include="Scripts\lib\preloadjs-0.6.0.min.js" />
-    <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
-    <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
+    <Content Include="Scripts\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assest\fonts\" />
-    <Folder Include="assest\images\" />
-    <Folder Include="assest\sounds\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Scripts\game.ts" />
-    <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\preloadjs\preloadjs.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\soundjs\soundjs.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\tweenjs\tweenjs.d.ts" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
