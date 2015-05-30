@@ -59,6 +59,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\background.jpg" />
+    <Content Include="assets\images\boat.jpg" />
+    <Content Include="assets\images\cave.jpg" />
+    <Content Include="assets\images\dogs.png" />
+    <Content Include="assets\images\friedChicken.jpg" />
+    <Content Include="assets\images\gunpoint.jpg" />
+    <Content Include="assets\images\lake.jpg" />
+    <Content Include="assets\images\motorbike.jpg" />
+    <Content Include="assets\images\pondHut.jpg" />
+    <Content Include="assets\images\stairs.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

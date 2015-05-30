@@ -1,12 +1,5 @@
 ﻿body {
-background: #b5bdc8;
-background: -moz-radial-gradient(center, ellipse cover,  #b5bdc8 0, #828c95 36%, #28343b 100%);
-background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b));
-background: -webkit-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
-background: -o-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
-background: -ms-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
-background: radial-gradient(ellipse at center,  #b5bdc8 0,#828c95 36%,#28343b 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+    background-image: url('../assets/images/background.jpg');
 }
 
 /* styling for slides that are inactive */
@@ -72,4 +65,46 @@ div.menu {
     border-top: 2px solid black;
     padding-top: 25px;
     text-align: center;
+}
+#intro {
+    background-image: url('../assets/images/lake.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #ecf60b;
+}
+#boat {
+    background-image: url('../assets/images/boat.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #162ff5;
+}
+#pirShip {
+    background-image: url('../assets/images/stairs.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #f56816;
+}
+#cave {
+    background-image: url('../assets/images/cave.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #e2c01f;
+}
+#forest {
+    background-image: url('../assets/images/pondHut.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #162ff5;
+}
+#hut {
+    background-image: url('../assets/images/dogs.png');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #ecf60b;
+}
+#diningRoom {
+    background-image: url('../assets/images/friedChicken.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #146807;
 }
