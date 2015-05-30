@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Name: Teleisha Hall-->
+<!-- ID: 300820822 -->
+<!-- App: HTML5 Game - Little Warrior -->
+<!-- Date: May 28, 2015 -->
+<!-- Description: An HTML5 game using impress.js-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Little Warrior! </title>
+    <!-- CSS Section -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p>You wake up in a strange place. You see a lake with a boat</p>
+                <p>on the banking and a path to the forest. You can take the</p>
+                <p>boat across the lake and try to get home, or you can walk</p>
+                <p>through the forest and risk being eaten by animals.</p>
+                <br />
+                <p>Will you take the boat or the forest?</p>
+                <p><a href="#boat">BOAT</a></p>
+                <p>or</p>
+                <p><a href="#forest">FOREST</a></p>
+            </div>
+        </div>
+        <div id="boat" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You are sailing across the lake when the boat suddenly</p>
+                <p>overturns and the water washes you into the sea! You see</p>
+                <p>a cave on the shore and a pirate ship sailing by. You can</p>
+                <p>either wave to the pirate ship and be captured, or you</p>
+                <p>can swim to the shore and enter the dark scary cave.</p>
+                <br />
+                <p>Will you wave to the ship or swim to the cave?</p>
+                <p><a href="#pirShip">PIRATE SHIP</a> OR <a href="#cave">CAVE</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#intro">BACK</a>
+            </div>
+        </div>
+        <div id="forest" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You enter the forest when suddenly, a big hungry tiger</p>
+                <p>lunges at you! You stab him with a spear you found. You</p>
+                <p>then see small hut and a pond with a ferry boat at the edge.</p>
+                <p>You can either sail across the pond where a crocodile lives</p>
+                <p>or you can enter the hut to find help.</p>
+                <br />
+                <p>Will you go into the hut or sail across the pond?</p>
+                <p><a href="#pond">POND</a> OR <a href="#hut">HUT</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#intro">BACK</a>
+            </div>
+        </div>
+        <div id="pirShip" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You wave to the pirate ship and is captured by 2 pirates.</p>
+                <p>One pirate is bringing you to lock up in a cell when you</p>
+                <p>push him down a stairway. You can either run to the deck</p>
+                <p> and jump overboard, or you can try to fight the captain</p>
+                <p> and take controlof the ship.</p>
+                <br />
+                <p>Will you jump overboard or fight the captain?</p>
+                <p><a href="#overboard">OVERBOARD</a> OR <a href="#fightCaptain">FIGHT CAPTAIN</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#boat">BACK</a>
+            </div>
+        </div>
+        <div id="cave" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You enter into the dark and scary cave. You hear screaming</p>
+                <p>to your left which is dark, and you see a faint streak of</p>
+                <p>light to your right. You may go to towards the screaming</p>
+                <p>and risk getting caught or you may follow the light and find</p>
+                <p> a way out.</p>
+                <br />
+                <p>Will you go towards the screaming or towards the light?</p>
+                <p><a href="#screaming">SCREAMING</a> OR <a href="#light">LIGHT</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#boat">BACK</a>
+            </div>
+        </div>
+        <div id="pond" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You defeat the crocodile and sail across the pond. You see</p>
+                <p>some people talking under a tree and a house on the other</p>
+                <p>side. You can approach the villagers who may capture you</p>
+                <p>for trespassing or you can run to the house, knock on the</p>
+                <p>doorand ask for help.</p>
+                <br />
+                <p>Will you approach the villagers or will you run to the house?</p>
+                <p><a href="villagers">VILLAGERS</a> OR <a href="house">HOUSE</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#forest">BACK</a>
+            </div>
+        </div>
+        <div id="hut" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You enter the hut where 2 dogs chase you around. You grab a knife</p>
+                <p>and kill the dogs.You see a door leading to a dinig room with food</p>
+                <p>and another door leading outside at the back leading to a motorbike.</p>
+                <p>Will you enter the dining room and eat some food or will you steal</p>
+                <p>the motorbike and risk being beaten to death?</p>
+                <br />
+                <p>Will you enter the dining room or the back door?</p>
+                <p><a href="diningRoom">DINING ROOM</a> OR <a href="backDoor">BACK DOOR</a></p>
+            </div>
+            <br />
+            <div class="menu">
+                <a href="#forest">BACK</a>
+            </div>
+        </div>
+        <div id="overboard" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You run to the deck and jump oveboard to escape being</p>
+                <p>killed when you see a shark heading towards you. It</p>
+                <p>opens its big jaws....and SNAP! You're dead.</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="fightCaptain" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>After pushing the pirate down the stairs, you steal</p>
+                <p>his sword. Now being the little warrior you are, you</p>
+                <p>decide to find and fight the captain. After an intense</p>
+                <p>sword fight, he STABS you in the heart and you die!</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="screaming" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You follow the screaming to find a man whipping a little</p>
+                <p>boy. You become outraged and grab a stone and throw it at</p>
+                <p>the man. The stone hits him in his head and he falls down</p>
+                <p>dead. The little boy is grateful and shows you how to get</p>
+                <p>out of the cave. You see a bus heading to your home town</p>
+                <p>and you hop onto it.</p>
+                <br />
+                <p>You are home once again! YOU WIN!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="light" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You become scared and run away from the screaming and</p>
+                <p>towards the light instead. You trip and fall down a very</p>
+                <p>deep well. You try to swim up but it was too deep and</p>
+                <p>sadly, you drown.</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="villagers" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You approach the villagers and ask them to help you get</p>
+                <p>home, but they don't understand a word you are saying as</p>
+                <p>they don't speak English. They grab you and tie you to a</p>
+                <p>tree and WHIP YOU TO DEATH!</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="house" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You walk up to the house and knock on the door and no one</p>
+                <p>answers. Being the skilled person you are, you pick the</p>
+                <p>lock and let yourself in. As soon as you step through the</p>
+                <p>a terrified little girl screams something you don't</p>
+                <p>understand, and you see a man point a gun at you. The next</p>
+                <p>thing you know, there is a BULLET IN YOUR HEAD!</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="diningRoom" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You are so hungry so you enter the dining room where you</p>
+                <p>see a plate of fried chicken. You grab a piece and gobble</p>
+                <p>it down. You realize your tongue is numb and you can't</p>
+                <p>it.....You have been POISONED! You can't breathe, and you</p>
+                <p>fall to the floor and die!</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+        <div id="backDoor" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You decide not to waste any time and run through the back</p>
+                <p>door. You unchain the motorbike when you see a man</p>
+                <p>coming at you with a cutlas. He doesn't give you a chance</p>
+                <p>to explain. He swings his cutlas....and your head is gone!</p>
+                <br />
+                <p>GAME OVER!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Section -->
+    <script src="Scripts/impress.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>
+
