@@ -61,14 +61,23 @@
   <ItemGroup>
     <Content Include="assets\images\background.jpg" />
     <Content Include="assets\images\boat.jpg" />
+    <Content Include="assets\images\boys.jpg" />
     <Content Include="assets\images\cave.jpg" />
     <Content Include="assets\images\dogs.png" />
+    <Content Include="assets\images\fight.png" />
     <Content Include="assets\images\friedChicken.jpg" />
     <Content Include="assets\images\gunpoint.jpg" />
     <Content Include="assets\images\lake.jpg" />
+    <Content Include="assets\images\logo2.png" />
     <Content Include="assets\images\motorbike.jpg" />
+    <Content Include="assets\images\pond.jpg" />
     <Content Include="assets\images\pondHut.jpg" />
+    <Content Include="assets\images\shark.jpeg" />
     <Content Include="assets\images\stairs.jpg" />
+    <Content Include="assets\images\villagers.jpg" />
+    <Content Include="assets\images\warrior.jpg" />
+    <Content Include="assets\images\well.jpg" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,7 +89,6 @@
   <ItemGroup>
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
-    <Content Include="index.html" />
     <Content Include="Scripts\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>

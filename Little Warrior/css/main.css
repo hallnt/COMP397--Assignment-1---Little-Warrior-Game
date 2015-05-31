@@ -1,5 +1,6 @@
 ﻿body {
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('../assets/images/background.jpg');       /* add image background to entire HTML page*/
+    font-family: 'Comic Sans MS';
 }
 
 /* styling for slides that are inactive */
@@ -8,7 +9,6 @@
     opacity: 0.0;
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
-    -ms-transition: opacity 1s ease;
     -o-transition: opacity 1s ease;
     transition: opacity 1s ease;
 }
@@ -66,38 +66,81 @@ div.menu {
     padding-top: 25px;
     text-align: center;
 }
+/* styling for page header*/
+#header {
+    color: #f56816;               /* text colour of header */
+    font-size: 50px;                /* font size of header */
+    font-family: 'Comic Sans MS';   /* font type of header */
+    margin-left: 10px;              /* place header 10px from left margin */
+}
+/* styling position for log0*/
+#logo {
+    margin-left: 1050px;            /* place logo 1200px frm left margin to make it appear on the right side of the page */
+}
+
+/* additional styling for each slide */
 #intro {
-    background-image: url('../assets/images/lake.jpg');
-    background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #ecf60b;
+    background-image: url('../assets/images/lake.jpg');  /* adding an image as a background to intro slide*/
+    background-size: 820px 720px;               /* setting the size of the image background*/
+    background-repeat: repeat;                  /* repeat background if image is too small to fill game frame */
+    color: rgb(201, 230, 7)                              /* color of text on intro frame */
 }
 #boat {
     background-image: url('../assets/images/boat.jpg');
     background-size: 820px 720px;
     background-repeat: repeat;
-    color: #162ff5;
-}
-#pirShip {
-    background-image: url('../assets/images/stairs.jpg');
-    background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #f56816;
-}
-#cave {
-    background-image: url('../assets/images/cave.jpg');
-    background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #e2c01f;
+    color: #4eba0d;
 }
 #forest {
     background-image: url('../assets/images/pondHut.jpg');
     background-size: 820px 720px;
     background-repeat: repeat;
-    color: #162ff5;
+    color: #0e13f3;
+}
+#pirShip {
+    background-image: url('../assets/images/stairs.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #0e13f3
+}
+#cave {
+    background-image: url('../assets/images/cave.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #f3d20e;
 }
 #hut {
     background-image: url('../assets/images/dogs.png');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #37c60e
+}
+#pond {
+    background-image: url('../assets/images/pond.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #f3d20e;
+}
+#overboard {
+    background-image: url('../assets/images/shark.jpeg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: rgb(201, 230, 7);
+}
+#fightCaptain {
+    background-image: url('../assets/images/fight.png');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #0e13f3;
+}
+#screaming {
+    background-image: url('../assets/images/boys.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #decb54;
+}
+#light {
+    background-image: url('../assets/images/well.jpg');
     background-size: 820px 720px;
     background-repeat: repeat;
     color: #ecf60b;
@@ -106,5 +149,26 @@ div.menu {
     background-image: url('../assets/images/friedChicken.jpg');
     background-size: 820px 720px;
     background-repeat: repeat;
-    color: #146807;
+    color: #b813d1;
 }
+#backDoor {
+    background-image: url('../assets/images/motorbike.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #f5ce16;
+}
+#villagers {
+    background-image: url('../assets/images/villagers.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #efc22e;
+}
+#house {
+    background-image: url('../assets/images/gunpoint.jpg');
+    background-size: 820px 720px;
+    background-repeat: repeat;
+    color: #decb54;
+}
+
+
+
