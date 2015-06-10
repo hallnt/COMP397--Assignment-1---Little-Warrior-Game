@@ -9,27 +9,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Little Warrior! </title>
-    <!-- CSS Section -->
+    <!-- CSS SECTION -->
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-    <!--Add logo to page-->
+    <!-- LOGO -->
     <div id="logo">
         <img src="assets/images/logo2.PNG" />
     </div>
 
-    <!-- Add page header -->
+    <!-- PAGE HEADER -->
     <div id="header">
         <b>LITTLE <br />WARRIOR </b><br />
         <img src="assets/images/warrior.jpg" />
     </div>
 
-    <!-- Add slides using impress -->
-    <!-- First decision level -->
+    <!-- ADD SLIDES USING IMPRESS -->
+    <!-- FIRST DECISION LEVEL -->
+    <!-- FIRST SLIDE THAT WILL APPEAR -->
     <div id="impress">
         <div id="intro" class="step slide">
-            <!-- First slide that will appear -->
             <div class="slide-text">
                 <p>You wake up in a strange place. You see a lake with a boat</p>
                 <p>on the banking and a path to the forest. You can take the</p>
@@ -37,16 +37,17 @@
                 <p>through the forest and risk being eaten by animals.</p>
                 <br />
                 <p>Will you take the boat or the forest?</p>
-                <p><a href="#boat">BOAT</a></p>      <!--Links to move to next slife/ frame-->
+                <p><a href="#boat">BOAT</a></p>      <!--LINK TO BOAT SLIDE -->
                 <p>or</p>
-                <p><a href="#forest">FOREST</a></p> <!--Link to go back to previous frame-->
+                <p><a href="#forest">FOREST</a></p> <!-- LINK TO FOREST SLIDE-->
             </div>
-        </div>
-
-        <!-- second decision level -->
-        <div id="boat" class="step slide" data-x="0" data-y="1500" data-rotate="180">    <!-- rotate slide up and 180 degrees anti-clockwise-->
+        </div> <!-- END OF FIRST SLIDE-->
+        <!-- SECOND DECISION LEVEL -->
+        <!-- SLIDE 2 -->
+        <div id="boat" class="step slide" data-x="0" data-y="1500" data-rotate="180">
+            <!-- SLIDES IN FROM THE RIGHT AND ROTATE 180 DEGREES -->
             <div class="slide-text">
-                <!-- add text to slide -->
+                <!-- SLIDE TEXT -->
                 <p>You are sailing across the lake when the boat suddenly</p>
                 <p>overturns and the water washes you into the sea! You see</p>
                 <p>a cave on the shore and a pirate ship sailing by. You can</p>
@@ -56,12 +57,14 @@
                 <p>Will you wave to the ship or swim to the cave?</p>
                 <p><a href="#pirShip">PIRATE SHIP</a> OR <a href="#cave">CAVE</a></p>
             </div>
-            <br /> <!-- skip a line -->
+            <br /> <!-- LINE BREAK -->
             <div class="menu">
-                <a href="#intro">BACK</a>
+                <a href="#intro">BACK</a>   <!-- MENU ITEM TO GO BACK TO PREVIOUS SLIDE-->
             </div>
-        </div>
-        <div id="forest" class="step slide" data-x="0" data-y="-1500" data-rotate="180">      <!-- rotate slide down and 180 degrees anto-clockwise-->
+        </div> <!-- end of slide 2 -->
+        <!-- SLIDE 3 -->
+        <div id="forest" class="step slide" data-x="0" data-y="-1500" data-rotate="180">
+            <!-- SLIDES DOWN AND ROTATE 180 DEGREES -->
             <div class="slide-text">
                 <p>You enter the forest when suddenly, a big hungry tiger</p>
                 <p>lunges at you! You stab him with a spear you found. You</p>
@@ -76,10 +79,11 @@
             <div class="menu">
                 <a href="#intro">BACK</a>
             </div>
-        </div>
-
-        <!-- third decision level -->
-        <div id="pirShip" class="step slide" data-x="1500" data-y="1500" data-rotate="-10"> <!-- change slide position -->
+        </div> <!-- END OF SLIDE 3 -->
+        <!-- THIRD DECISION LEVEL -->
+        <!-- SLIDE 4 -->
+        <div id="pirShip" class="step slide" data-x="1500" data-y="1500" data-rotate="-10">
+            <!-- change slide position -->
             <div class="slide-text">
                 <p>You wave to the pirate ship and is captured by 2 pirates.</p>
                 <p>One pirate is bringing you to lock up in a cell when you</p>
@@ -94,8 +98,9 @@
             <div class="menu">
                 <a href="#boat">BACK</a>
             </div>
-        </div>
-        <div id="cave" class="step slide" data-x="1500" data-y="-1500" data-z="1500" data-rotate="-10">
+        </div> <!-- END OF SLIDE 4 -->
+        <!-- slide 5 -->
+        <div id="cave" class="step slide" data-x="1500" data-y="3000" data-rotate="-10">
             <div class="slide-text">
                 <p>You enter into the dark and scary cave. You hear screaming</p>
                 <p>to your left which is dark, and you see a faint streak of</p>
@@ -110,7 +115,8 @@
             <div class="menu">
                 <a href="#boat">BACK</a>
             </div>
-        </div>
+        </div> <!-- END OF SLIDE 5 -->
+        <!-- SLIDE 6 -->
         <div id="pond" class="step slide" data-x="-1500" data-y="1500" data-rotate="10">
             <div class="slide-text">
                 <p>You defeat the crocodile and sail across the pond. You see</p>
@@ -126,8 +132,9 @@
             <div class="menu">
                 <a href="#forest">BACK</a>
             </div>
-        </div>
-        <div id="hut" class="step slide" data-x="-1500" data-y="1500" data-z="1500" data-rotate="10">
+        </div> <!-- END OF SLIDE 6 -->
+        <!-- SLIDE 7 -->
+        <div id="hut" class="step slide" data-x="-1500" data-y="3000" data-rotate="10">
             <div class="slide-text">
                 <p>You enter the hut where 2 dogs chase you around. You</p>
                 <p>grab a knife and kill the dogs.You see a door leading</p>
@@ -142,10 +149,10 @@
             <div class="menu">
                 <a href="#forest">BACK</a>
             </div>
-        </div>
-
-        <!-- all outcomes to either win or lose game -->
-        <div id="overboard" class="step slide" data-x="1500" data-y="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 7 -->
+        <!-- THIRD DECISION LEVEL OUTCMES -->
+        <!-- SLIDE 8 -->
+        <div id="overboard" class="step slide" data-x="3000" data-y="3000" data-z="500" data-scale="3">
             <div class="slide-text">
                 <p>You run to the deck and jump oveboard to escape being</p>
                 <p>killed when you see a shark heading towards you. It</p>
@@ -154,10 +161,11 @@
                 <p>GAME OVER!</p>
             </div>
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#intro">START OVER</a> <!-- MENU LINK TO FIRST SLIDE -->
             </div>
-        </div>
-        <div id="fightCaptain" class="step slide" data-x="3000" data-y="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 8 -->
+        <!-- SLIDE 9 -->
+        <div id="fightCaptain" class="step slide" data-x="4500" data-y="3000" data-z="1000" data-scale="3">
             <div class="slide-text">
                 <p>After pushing the pirate down the stairs, you steal</p>
                 <p>his sword. Now being the little warrior you are, you</p>
@@ -169,9 +177,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-
-        <div id="screaming" class="step slide" data-x="1500" data-y="1500" data-z="3000" data-scale="4" data-totate="360">
+        </div> <!-- END OF SLIDE 9 -->
+        <!-- SLIDE 10 -->
+        <div id="screaming" class="step slide" data-x="3000" data-y="4500" data-z="1500" data-scale="5" data-totate="360">
             <div class="slide-text">
                 <p>You follow the screaming to find a man whipping a little</p>
                 <p>boy. You become outraged and grab a stone and throw it at</p>
@@ -185,8 +193,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-        <div id="light" class="step slide" data-x="1500" data-y="3000" data-z="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 10 -->
+        <!-- SLIDE 11 -->
+        <div id="light" class="step slide" data-x="6000" data-y="4500" data-z="2000" data-scale="3">
             <div class="slide-text">
                 <p>You become scared and run away from the screaming and</p>
                 <p>towards the light instead. You trip and fall down a very</p>
@@ -198,9 +207,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-
-        <div id="villagers" class="step slide" data-x="-3000" data-y="1500" data-scale="4">
+        </div> <!-- END OF SLIDE 11 -->
+        <!-- SLIDE 12 -->
+        <div id="villagers" class="step slide" data-x="-3000" data-y="3000" data-z="2500" data-scale="3">
             <div class="slide-text">
                 <p>You approach the villagers and ask them to help you get</p>
                 <p>home, but they don't understand a word you are saying as</p>
@@ -212,8 +221,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-        <div id="house" class="step slide" data-x="-3000" data-y="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 12 -->
+        <!-- SLIDE 13 -->
+        <div id="house" class="step slide" data-x="-3500" data-y="3000" data-z="3000" data-scale="3">
             <div class="slide-text">
                 <p>You walk up to the house and knock on the door and no</p>
                 <p>one answers. Being the skilled person you are, you</p>
@@ -227,8 +237,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-        <div id="diningRoom" class="step slide" data-x="-1500" data-y="1500" data-z="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 13 -->
+        <!-- SLIDE 14 -->
+        <div id="diningRoom" class="step slide" data-x="-3000" data-y="3500" data-z="3500" data-scale="3">
             <div class="slide-text">
                 <p>You are so hungry so you enter the dining room where you</p>
                 <p>see a plate of fried chicken. You grab a piece and gobble</p>
@@ -241,8 +252,9 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>
-        <div id="backDoor" class="step slide" data-x="-3000" data-y="1500" data-z="3000" data-scale="4">
+        </div> <!-- END OF SLIDE 14 -->
+        <!-- SLIDE 15 -->
+        <div id="backDoor" class="step slide" data-x="-3500" data-y="3500" data-z="4000" data-scale="3">
             <div class="slide-text">
                 <p>You decide not to waste any time and run through the back</p>
                 <p>door. You unchain the motorbike when you see a man</p>
@@ -254,12 +266,12 @@
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
-        </div>   
+        </div>   <!-- END OF SLIDE 15 -->
 
-    </div> <!-- end of impress frames -->
-    <!-- JavaScript Section -->
+    </div> <!-- END OF IMPRESS SLIDES-->
+    <!-- JAVASCRIPT SECTION -->
     <script src="Scripts/impress.js"></script>
-    <script>impress().init();</script> <!-- runs the impressjs file -->
+    <script>impress().init();</script> <!-- RUNS IMPRESSJS FILES -->
 </body>
 </html>
 

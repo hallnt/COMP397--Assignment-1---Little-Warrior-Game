@@ -1,9 +1,9 @@
 ﻿body {
-    background-image: url('../assets/images/background.jpg');       /* add image background to entire HTML page*/
+    background-image: url('../assets/images/background.jpg');       /* PAGE BACKGROUND IMAGE*/
     font-family: 'Comic Sans MS';
 }
 
-/* styling for slides that are inactive */
+/* INACTIVE SLIDES */
 .impress-enabled .step {
     margin: 0;
     opacity: 0.0;
@@ -13,13 +13,13 @@
     transition: opacity 1s ease;
 }
 
-    /* styling for slides that are active*/
-    .impress-enabled .step.active {
+/* STYLE ACTIVE SLIDES */ 
+.impress-enabled .step.active {
         opacity: 1;
     }
 
 
-/* styling for all slides */
+/* STYLEING FOR ALL SLIDES*/
 .slide {
     display: block;
     width: 700px;
@@ -34,14 +34,14 @@
     font-size: 24px;
 }
 
-/* styling for slide paragraphs */
+/* FORMAT FOR PARAGRAPHS */
 .slide p {
         margin-top: 15px;
         margin-bottom: 30px;
         line-height: 30px;
     }
 
-/* styling for slide links */
+/* SLIDE LINKS STYLING */
 .slide a, .slide a:visited {
         color: #071549;
         text-decoration: none;
@@ -55,30 +55,32 @@
             background-color: #cde;
         }
 
-/* styling for slide text area */
+/* STYLE SLIDE TEXT SREA */
 .slide .slide-text {
         height: 450px;
     }
 
-/* styling for menu section of each slide */
+/* MENU STYLE */
 div.menu {
     border-top: 2px solid black;
     padding-top: 25px;
     text-align: center;
 }
-/* styling for page header*/
+
+/* STYLE PAGE HEADER*/
 #header {
     color: #f56816;               /* text colour of header */
     font-size: 50px;                /* font size of header */
     font-family: 'Comic Sans MS';   /* font type of header */
     margin-left: 10px;              /* place header 10px from left margin */
 }
-/* styling position for log0*/
+
+/* POSITION LOGO*/
 #logo {
-    margin-left: 1050px;            /* place logo 1200px frm left margin to make it appear on the right side of the page */
+    margin-left: 1180px;            /* place logo 1180px frm left margin to make it appear on the right side of the page */
 }
 
-/* additional styling for each slide */
+/* STYLING FOR EACH SLIDE */
 #intro {
     background-image: url('../assets/images/lake.jpg');  /* adding an image as a background to intro slide*/
     background-size: 820px 720px;               /* setting the size of the image background*/
