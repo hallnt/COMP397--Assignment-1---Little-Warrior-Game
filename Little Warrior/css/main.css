@@ -1,4 +1,13 @@
-﻿body {
+﻿/* Source File: HTML5 Game - Little Warrior */ 
+/* Author: Teleisha Hall */
+/* ID: 300820822 */
+/* Last Modified By: Teleisha Hall */
+/* Date Last Modified: July 12, 2015 */
+/* Description: An HTML5 game using impress.js */
+/* Revision History: v8 - https://github.com/hallnt/COMP397--Assignment-1---Little-Warrior-Game/commits/master */
+
+/* STYLE PAGE BODY */
+body {
     background-image: url('../assets/images/background.jpg');       /* PAGE BACKGROUND IMAGE*/
     font-family: 'Comic Sans MS';
 }
@@ -15,8 +24,8 @@
 
 /* STYLE ACTIVE SLIDES */ 
 .impress-enabled .step.active {
-        opacity: 1;
-    }
+    opacity: 1;
+}
 
 
 /* STYLEING FOR ALL SLIDES*/
@@ -36,29 +45,30 @@
 
 /* FORMAT FOR PARAGRAPHS */
 .slide p {
-        margin-top: 15px;
-        margin-bottom: 30px;
-        line-height: 30px;
-    }
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-style: oblique;
+}
 
 /* SLIDE LINKS STYLING */
 .slide a, .slide a:visited {
-        color: #071549;
-        text-decoration: none;
-        background-color: #abc;
-        padding: 5px;
-        border-radius: 5px;
-        border: 1px solid #cde;
-    }
+    color: #071549;
+    text-decoration: none;
+    background-color: #abc;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cde;
+}
 
 .slide a:hover, .slide a:active {
-            background-color: #cde;
-        }
+    background-color: #cde;
+}
 
 /* STYLE SLIDE TEXT SREA */
 .slide .slide-text {
-        height: 450px;
-    }
+    height: 450px;
+}
 
 /* MENU STYLE */
 div.menu {
@@ -67,7 +77,7 @@ div.menu {
     text-align: center;
 }
 
-/* STYLE PAGE HEADER*/
+/* STYLE PAGE HEADER */
 #header {
     color: #f56816;               /* text colour of header */
     font-size: 50px;                /* font size of header */
@@ -75,101 +85,89 @@ div.menu {
     margin-left: 10px;              /* place header 10px from left margin */
 }
 
-/* POSITION LOGO*/
-#logo {
-    margin-left: 1180px;            /* place logo 1180px frm left margin to make it appear on the right side of the page */
+/* STYLE PAGE FOOTER */
+#footer {
+    padding-top: 10px;
+    padding-left: 5px;
+    color: #0e13f3; 
+    font-size: 14px;  
 }
 
 /* STYLING FOR EACH SLIDE */
 #intro {
     background-image: url('../assets/images/lake.jpg');  /* adding an image as a background to intro slide*/
     background-size: 820px 720px;               /* setting the size of the image background*/
-    background-repeat: repeat;                  /* repeat background if image is too small to fill game frame */
-    color: rgb(201, 230, 7)                              /* color of text on intro frame */
+    color: #00ffff                             /* color of text on intro frame */
 }
 #boat {
     background-image: url('../assets/images/boat.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #4eba0d;
 }
 #forest {
     background-image: url('../assets/images/pondHut.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #0e13f3;
+    color: #00ffff;
 }
 #pirShip {
     background-image: url('../assets/images/stairs.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #0e13f3
+    color: #0e13f3;
 }
 #cave {
     background-image: url('../assets/images/cave.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #f3d20e;
 }
 #hut {
     background-image: url('../assets/images/dogs.png');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #37c60e
+    color: #0e13f3;
 }
 #pond {
     background-image: url('../assets/images/pond.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #f3d20e;
 }
 #overboard {
     background-image: url('../assets/images/shark.jpeg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: rgb(201, 230, 7);
+    color: #f3d20e;
 }
 #fightCaptain {
     background-image: url('../assets/images/fight.png');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #0e13f3;
 }
 #screaming {
     background-image: url('../assets/images/boys.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #decb54;
+    color: #00ffff;
 }
 #light {
     background-image: url('../assets/images/well.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #ecf60b;
 }
 #diningRoom {
     background-image: url('../assets/images/friedChicken.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #b813d1;
 }
 #backDoor {
     background-image: url('../assets/images/motorbike.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
     color: #f5ce16;
 }
 #villagers {
     background-image: url('../assets/images/villagers.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #efc22e;
+    color: #00ffff;
 }
 #house {
     background-image: url('../assets/images/gunpoint.jpg');
     background-size: 820px 720px;
-    background-repeat: repeat;
-    color: #decb54;
+    color: #f3d20e;
 }
 
 
